@@ -1,8 +1,10 @@
-*{}
+* {}
+
 @font-face {
     font-family: poppins;
     src: url(./fonts/Poppins-ExtraLight.ttf);
 }
+
 .custm {
     border: 1px solid #BEBEBE;
     border-radius: 40px;
@@ -16,9 +18,10 @@ a {
     color: black;
 }
 
+/* hero section start */
 .linear {
     background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
-    Height: 617px;
+
 }
 
 button {
@@ -45,9 +48,7 @@ button:hover {
 }
 
 .btn {
-    background-color: white;
-    border-radius: 40px;
-
+    display: flex;
 }
 
 .im {
@@ -56,14 +57,68 @@ button:hover {
 
 #email {
     border-radius: 40px;
-    height: 40px;
+    height: 60px;
     width: 318px;
-    z-index: -2;
+    z-index: 2;
     border: none;
+    text-align: center;
 }
-.HER{font-family:poppins ;
-font-weight: 600;
-font-size: 67px;}
-.col>p{font-family: poppins;
-font-weight: 400;
-font-size: 16px;}
+
+.HER {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 67px;
+}
+
+.col>p {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* hero section end */
+/* second sec start */
+.cnt {
+    text-align: center;
+    margin: 80px;
+}
+
+.cnt>h1 {
+    font-size: 37px;
+}
+
+.car {
+    gap: 20px;
+}
+
+.d-flex {
+    align-items: flex-start;
+}
+
+/* second sec end */
+/* third sec start */
+/* third sec end */
+/* fourth sec start */
+.cn>h1 {
+    font-family: poppins;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.p {
+    margin-top: -50px;
+}
+
+.dd {
+    display: flex;
+    gap: 50px;
+}
+
+.d>h1 {
+    font-size: 70px;
+}
+
+/* fourth sec end */
+/* last sec start */
+
+/* last sec end */
